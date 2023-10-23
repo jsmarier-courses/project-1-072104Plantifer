@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #87685c88;
+}
+
+.top-bar {
+    max-width: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    font-size: 30px;
+    position: absolute;
+    padding: 0px 0px 0px 20px;
+    z-index: 3;
+    color: #bf8977c9;
+    font-weight: bold;
+}
+
+.top-menu {
+    position: absolute;
+    top: 85px;
+    z-index: 2;
+    width: 100%;
+}
+
+.top-menu ul {
+    list-style-type: none;
+    font-size: 20px; 
+    float: right;
+    margin-right: 20px;
+}
+
+.top-menu li {
+    display: inline-block;
+}
+
+.top-menu li a:link, .top-menu li a:visited {
+	color: rgba(46, 80, 106, 0.057);
+	text-decoration: underline navy; 
+	padding: 20px 20px 20.5px 20px;
+}
+
+.top-menu li a:hover {
+    border-style: groove;
+    border-width: 0px 0px 4px 0px;
+    border-color: rgba(201, 65, 140, 0.945);
+}
+
+.current-page-link {
+    border-style: dotted;
+    border-width: 0px 0px 4px 0px;
+    border-color: rgb(166, 101, 206);
+}
+
+.page-content {
+	position: relative;
+	top: 145px;
+    max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255, 255, 255, 0.667);
+    z-index: 1;
+}
+
+.main-section {
+    padding: 10px 20px 10px 20px;
+}
+
+.main-section h1, .main-section h2 {
+    color: rgba(24, 122, 129, 0.717);
+}
+
+.main-section figure, .main-section img {
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+
+.footer {
+    position: relative;
+    top: 140px;
+    z-index: 3;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;   border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    border-color: rgb(81, 170, 93);
+}
+
+.footer-content {
+    padding: 5px 5px 5px 20px;
+    color: rgba(14, 75, 53, 0.422);
+}
+
+.footer-content a:link {
+    color: rgb(195, 155, 172);
+    text-decoration: underline;
+}
