@@ -63,7 +63,7 @@ html, body {
     max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: rgba(255, 255, 255, 0.667);
+	background-color: rgba(148, 89, 89, 0.089);
     z-index: 1;
 }
 
@@ -98,6 +98,6 @@ html, body {
 }
 
 .footer-content a:link {
-    color: rgb(195, 155, 172);
+    color: rgb(201, 94, 141);
     text-decoration: underline;
 }
